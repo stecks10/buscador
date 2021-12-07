@@ -39,7 +39,7 @@ const Dashboard: React.FC = () => {
       <Title>Explore suas Buscas</Title>
 
       <Form onSubmit={handleAddRepository}>
-        <button type="submit">Gere uma busca</button>
+        <button type="submit">Gere uma busca aleatória</button>
       </Form>
 
       <Repositories>

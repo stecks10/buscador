@@ -16,7 +16,7 @@ export const Form = styled.form`
   display: flex;
 
   button {
-    width: 13.125rem;
+    width: 100%;
     height: 70px;
     background: #04d361;
     border-radius: 0.313rem;
@@ -69,24 +69,6 @@ export const Repositories = styled.div`
     p {
       font-size: 1.125rem;
       margin-top: 0.25rem;
-    }
-  }
-`;
-
-export const Container = styled.div`
-  display: flex;
-  button {
-    width: 13.125rem;
-    height: 4.375rem;
-    margin-top: 1.25rem;
-    background: #04d361;
-    border-radius: 5px 5px 5px 5px;
-    border: 0;
-    color: #fff;
-    font-weight: bold;
-    transition: background-color 0.2s;
-    &:hover {
-      background: ${shade(0.2, '#04d361')};
     }
   }
 `;
